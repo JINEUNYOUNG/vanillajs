@@ -1,0 +1,113 @@
+body  {
+    margin:0;
+    position: relative;
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+
+  
+}
+
+#weather {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "맑은 고딕";
+  font-size: small;
+  text-align: center;
+}
+
+#quote {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "맑은 고딕";
+  font-size: small;
+  text-align: center;
+}
+
+div > :nth-child(1) {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+#clock {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "맑은 고딕";
+    font-size:70px;
+    text-align: center;
+    opacity: 0.6;
+  }
+  
+  
+  #todo-form {
+    position: absolute;
+    top: 10%;
+    right: 18%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:small;
+    width: 100px;
+    
+  }
+  #todo-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 250px;
+    top: 28%;
+    right: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:small;
+    overflow: auto;
+    background-color: white;
+    opacity: 0.5;
+    border-radius:1cm;
+    color:black;
+    align-items: center;
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #login-form{
+    
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "맑은 고딕";
+    font-size:40px;
+    text-align: center;
+  }
+  
+  #greeting {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "맑은 고딕";
+    font-size:40px;
+    text-align: center;
+    
+  }
